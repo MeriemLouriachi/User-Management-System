@@ -1,0 +1,2 @@
+# User Management System
+ This is a simple User Management System built using PHP, MySQL, and Vanilla JavaScript (Fetch API). It allows users to register with their first name, last name, username, and password. The system includes form validation, username duplication check, and password hashing for security. AJAX is used to submit the form and show real-time error messages without reloading the page. 
