@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <main class="signup-container">
+
+        <!--SignUp Form Section-->
+        <section class="form-section">
+            <h1>Let's Get Started!</h1>
+            <p class="subtitle"><br>Join us and start your journey! <br></p>
+            
+            <form id="signupForm" action="server/signup.php" method="post" class="signup-form">
+                <input type="hidden" name="form_type" value="signup">
+                    <div class="form-group">
+                        <input id="firstname" type="text" name="firstname" required placeholder="First Name" autocomplete="off">
+                    </div>
+                    <div class="form-group">
+                        <input id="lastname" type="text" name="lastname" required placeholder="Last Name" autocomplete="off">
+                    </div>
+                    <div class="form-group">
+                        <input id="username" type="text" name="username" required placeholder="User Nmae" autocomplete="off">
+                    </div>
+                    <div class="form-group">
+                        <input id="password" type="password" name="password" required placeholder="Password">
+                    </div>
+                    <div class="form-group">
+                        <input id="confirm-password" type="password" name="confirm-password" required placeholder="Confirm Password">
+                    </div>
+                    <button type="submit" class="login-btn">Sign Up</button>
+             </form>
+             <p class="signup-link">You already have an account! <a href="index.html">Log in</a></p>
+                
+        </section>
+
+    </main>
+</body>
+</html>
